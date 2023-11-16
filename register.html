@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/styles/register_style.css">
+    <script src="https://kit.fontawesome.com/ab4da2f3ac.js" crossorigin="anonymous"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="user-icon">
+            <center><i class="fa-solid fa-user" style="font-size: 50px;"></i></center>        
+        </div>
+        <form>
+            <h2>Registro</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo-usuario">Tipo de Usuario:</label>
+            <select id="tipo-usuario" name="tipo-usuario" required>
+                <option value="estudiante">Estudiante</option>
+                <option value="profesor">Profesor</option>
+            </select>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <button type="submit">
+                Registrarse
+            </button>
+        </form>
+    </div>
+</body>
+</html>
