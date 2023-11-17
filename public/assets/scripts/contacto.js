@@ -5,9 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     contactForm.addEventListener("submit", function (event) {
         event.preventDefault();
-        // Puedes agregar aquí la lógica para enviar el formulario, por ejemplo, utilizando AJAX
 
-        // Muestra el popup de éxito
         showSuccessPopup();
     });
 
