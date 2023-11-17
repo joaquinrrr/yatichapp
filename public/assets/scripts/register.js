@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        // Aquí podrías realizar el procesamiento de registro
-        // ...
-
         showModal('Usuario Registrado Exitosamente');
     });
 
