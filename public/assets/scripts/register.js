@@ -8,10 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        // Puedes personalizar el mensaje según tus necesidades
         showModal('Usuario Registrado Exitosamente');
 
-        // Limpia los campos del formulario
         resetForm();
     });
 
@@ -29,6 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function resetForm() {
-        form.reset(); // Esto limpiará los valores de todos los campos del formulario
+        form.reset(); 
     }
 });

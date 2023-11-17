@@ -182,7 +182,6 @@ header ul {
     margin-right: 6rem;
 }
 
-/*button styles*/
 
 .button-88-pushable {
     display: inline-block;
@@ -739,7 +738,6 @@ footer h4 {
     background-color: #0056b3;
 }
 
-/* Tu estilo actual aquí */
 
 .contacto {
     padding: 20px;
@@ -789,7 +787,7 @@ button {
 }
 
 .quienes-somos {
-    background-color: white; /* Add your background color */
+    background-color: white; 
     padding: 4rem;
     text-align: center;
 }

@@ -62,7 +62,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     background-color: rgba(255, 255, 255, 0.8);
-    margin-top: 80px; /* Ajusta el margen superior para evitar que el contenido se solape con el encabezado */
+    margin-top: 80px; 
 }
 
 .user-icon {
@@ -96,7 +96,6 @@ select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: #fff url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css') no-repeat scroll right center transparent;
     background-size: 20px;
 }
 
