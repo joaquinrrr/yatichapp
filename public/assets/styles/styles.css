@@ -689,3 +689,52 @@ footer h4 {
     margin-top: 2rem;
     font-size: 30px;
 }
+
+.linea {
+    margin-top: 20px;
+}
+
+.linea hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.titulo-cursos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.curso {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.curso img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.btn-ver-curso {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.btn-ver-curso:hover {
+    background-color: #0056b3;
+}
