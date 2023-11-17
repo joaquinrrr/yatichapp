@@ -1,7 +1,7 @@
 Scenario: Estudiante no está registrado
 Given que el estudiante no está registrado 
 And  se encuentra en la pantalla de inicio de la app
-When el estudiante presiona el botón “Registrarme como Estudiante”
+When el estudiante presiona el botón “Registrarme”
 Then  la aplicación muestra el formulario REGISTRARSE
 
 Scenario: Estudiante se registra
