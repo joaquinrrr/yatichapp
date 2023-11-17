@@ -787,3 +787,30 @@ button {
     background-color: white;
     text-align: center;
 }
+
+.quienes-somos {
+    background-color: white; /* Add your background color */
+    padding: 4rem;
+    text-align: center;
+}
+
+.quienes-somos-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quienes-somos-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.quienes-somos-content p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.quienes-somos-content img {
+    max-width: 100%;
+    height: auto;
+}
