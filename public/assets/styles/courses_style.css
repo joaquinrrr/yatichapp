@@ -1,139 +1,171 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
+  background-color: var(--primary-color);
+}
+
+.logo img {
+  max-width: 400px;
+  height: auto;
+}
+
+header ul {
+  display: inline-flex;
+  gap: 70px;
+}
+
+.header-nav li {
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header-nav li a:hover {
+  color: var(--secondary-color);
+}
 
 
-  body {
-    background-image: linear-gradient(to right, #0a341891 0%, #38f9d622 100%), url(https://ciudademprende.com/wp-content/uploads/2020/03/cursos-online-portada.jpg) ;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background-image: linear-gradient(to right, #0a341891 0%, #38f9d622 100%), url(https://ciudademprende.com/wp-content/uploads/2020/03/cursos-online-portada.jpg) ;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
   
-  header {
-    text-align: center;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #266c8d 100%);    color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+header {
+  text-align: center;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #266c8d 100%);    color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
   
-  .landing {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 20px;
-  }
+.landing {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
   
-  .cursos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
+.cursos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
   
-  h3{
-    text-shadow: 1px 1px 1px black;
-    color: white;
-  }
+h3{
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
 
-  .curso {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.7);
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-    background-size: cover;
-    position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    border-radius: 5%;
-  }
+.curso {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-size: cover;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 5%;
+}
   
-  .curso h2, .curso p, .curso .info-button {
-    position: relative;
-    z-index: 1;
-  }
+.curso h2, .curso p, .curso .info-button {
+  position: relative;
+  z-index: 1;
+}
   
-  .curso1 {
-    background-image: url(../images/curso1.jpg);
-  }
+.curso1 {
+  background-image: url(../images/curso1.jpg);
+}
   
-  .curso1 img {
-    filter: brightness(80%);
-  }
+.curso1 img {
+  filter: brightness(80%);
+}
   
-  .curso2 {
-    background-image: url(../images/curso2.jpg);
-  }
+.curso2 {
+  background-image: url(../images/curso2.jpg);
+}
   
-  .curso2 img {
-    filter: brightness(80%);
-  }
+.curso2 img {
+  filter: brightness(80%);
+}
   
-  .curso3{
-    background-image: url(../images/curso3.png);
-  }
+.curso3{
+  background-image: url(../images/curso3.png);
+}
   
-  .curso3 img {
-    filter: brightness(80%);
-  }
+.curso3 img {
+  filter: brightness(80%);
+}
 
-  .curso4 {
-    background-image: url(../images/curso4.png);
-  }
+.curso4 {
+  background-image: url(../images/curso4.png);
+}
   
-  .curso4 img {
-    filter: brightness(80%);
-  }
+.curso4 img {
+  filter: brightness(80%);
+}
   
-  .curso5 {
-    background-image: url(../images/curso5.png);
-  }
+.curso5 {
+  background-image: url(../images/curso5.png);
+}
   
-  .curso5 img {
-    filter: brightness(80%);
-  }
-  .curso6 {
-    background-image: url(../images/curso6.png);
-  }
+.curso5 img {
+  filter: brightness(80%);
+}
+.curso6 {
+  background-image: url(../images/curso6.png);
+}
   
-  .curso6 img {
-    filter: brightness(80%);
-  }
+.curso6 img {
+  filter: brightness(80%);
+}
 
-  .curso7 {
-    background-image: url(../images/curso7.jpeg);
-  }
+.curso7 {
+  background-image: url(../images/curso7.jpeg);
+}
   
-  .curso7 img {
-    filter: brightness(80%);
-  }
+.curso7 img {
+  filter: brightness(80%);
+}
   
-  .curso8 {
-    background-image: url(../images/curso8.jpg);
-  }
+.curso8 {
+  background-image: url(../images/curso8.jpg);
+}
   
-  .curso8 img {
-    filter: brightness(80%);
-  }
-  .curso9 {
-    background-image: url(../images/curso9.jpeg);
-  }
+.curso8 img {
+  filter: brightness(80%);
+}
+.curso9 {
+  background-image: url(../images/curso9.jpeg);
+}
   
-  .curso9 img {
-    filter: brightness(80%);
-  }
+.curso9 img {
+  filter: brightness(80%);
+}
   
-  .info-button {
-    background-color: #333;
-    color: white;
-    padding: 8px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-  }
-  
-  .info-button:hover {
-    background-color: #555;
-  }
+.info-button {
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.info-button:hover {
+  background-color: #555;
+}
   
