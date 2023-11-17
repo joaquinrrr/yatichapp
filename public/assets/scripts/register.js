@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
+        // Puedes personalizar el mensaje según tus necesidades
         showModal('Usuario Registrado Exitosamente');
     });
 
