@@ -168,4 +168,34 @@ h3{
 .info-button:hover {
   background-color: #555;
 }
-  
+
+/* Añade una capa de fondo para oscurecer la pantalla */
+#fondo-negro {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro transparente */
+  z-index: 998; /* Asegura que la capa esté debajo del mensaje */
+}
+
+/* Modifica el estilo del mensaje popup */
+#mensaje {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo negro transparente */
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño de fuente */
+  max-width: 80%; /* Ancho máximo del mensaje */
+  z-index: 999; /* Asegura que el mensaje esté en la capa superior */
+}
+
+
