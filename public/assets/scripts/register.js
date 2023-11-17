@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Puedes personalizar el mensaje según tus necesidades
         showModal('Usuario Registrado Exitosamente');
+
+        // Limpia los campos del formulario
+        resetForm();
     });
 
     closeButton.addEventListener('click', function () {
@@ -23,5 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function closeModal() {
         modal.style.display = 'none';
+    }
+
+    function resetForm() {
+        form.reset(); // Esto limpiará los valores de todos los campos del formulario
     }
 });
