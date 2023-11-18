@@ -4,16 +4,16 @@
 
 
 :root {
-    --primary-color: #1e2ede;
-    --secondary-color: #ffb703;
+    --primary-color: #6A041D;
+    --secondary-color: #F5B841;
     --third-color: #adb5bd;
     --font: 'Roboto';
     --font2: 'Hind Madurai', sans-serif;
     --text-color: #212529;
     --button-color1: var(--primary-color);
     --button-color2: var(--secondary-color);
-    --button-hover1: #4361ee;
-    --button-hover2: #ffd60a;
+    --button-hover1: #6A041D;
+    --button-hover2: #F5B841 ;
     --text-Color2: #5c677d;
 }
 
@@ -730,7 +730,7 @@ footer h4 {
 .btn-ver-curso {
     display: inline-block;
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color:#6A041D;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -738,7 +738,7 @@ footer h4 {
 }
 
 .btn-ver-curso:hover {
-    background-color: #0056b3;
+    background-color: #F5B841 ;
 }
 
 
@@ -762,7 +762,7 @@ label {
 
 button {
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #6A041D;
     color: white;
     border: none;
     cursor: pointer;
@@ -812,7 +812,7 @@ button {
 }
 
 .quienes-somos-content img {
-    max-width: 100%;
+    width: 150px;
     height: auto;
 }
 
@@ -850,7 +850,7 @@ button {
 .recursos-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #F5B841 ;
     color: white;
     text-decoration: none;
     border-radius: 5px;
