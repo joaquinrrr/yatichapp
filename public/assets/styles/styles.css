@@ -82,10 +82,15 @@ header {
 }
 
 .logo img {
-    max-width: 400px;
+    max-width: 80px;
     height: auto;
 }
 
+.logo a {
+   margin-left: auto;
+   font-size: 22px;
+   font-weight: bold;
+}
 header ul {
     display: inline-flex;
     gap: 70px;
