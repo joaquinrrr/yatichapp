@@ -25,6 +25,19 @@ header {
     top: 0;
 }
 
+.logo {
+    display: flex;
+    align-items: center; /* Esto centra verticalmente */
+    justify-content: center; /* Esto centra horizontalmente si es necesario */
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
 .logo img {
     max-width: 80px;
     height: auto;
@@ -33,7 +46,8 @@ header {
 .logo span {
     font-size: 22px;
     font-weight: bold;
- }
+    padding-left: 10px; /* Ajusta la separación entre el logo y el texto si es necesario */
+}
 
 .header-nav {
     order: -1;

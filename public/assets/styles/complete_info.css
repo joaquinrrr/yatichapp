@@ -25,17 +25,29 @@ header {
     top: 0;
 }
 
+.logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
 .logo img {
     max-width: 80px;
     height: auto;
 }
 
 .logo span {
-    margin-left: auto;
     font-size: 22px;
     font-weight: bold;
- }
- 
+    padding-left: 10px; 
+}
 .header-nav {
     order: -1;
 }
