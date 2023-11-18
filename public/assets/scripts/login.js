@@ -1,3 +1,3 @@
 function redirect() {
-    window.location.href = "/pages/complete_info.html"; 
+    window.location.href = "/yatichapp/pages/complete_info.html"; 
 }
