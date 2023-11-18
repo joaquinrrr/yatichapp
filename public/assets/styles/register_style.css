@@ -27,11 +27,11 @@ header {
 
 .logo img {
     max-width: 80px;
+    align-self: center;
     height: auto;
 }
 
-.logo a {
-    margin-left: auto;
+.logo span {
     font-size: 22px;
     font-weight: bold;
  }
