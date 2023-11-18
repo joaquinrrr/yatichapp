@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/assets/styles/complete_info.css">
+    <script src="https://kit.fontawesome.com/ab4da2f3ac.js" crossorigin="anonymous"></script>
+    <script src="../public/assets/scripts/complete_info.js"></script>
+    <title>Completar Información</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html" style="text-decoration: none; color: white;"><img src="../public/assets/images/icon.svg" alt="logo">Yatichapp</a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../index.html">¿Quiénes somos?</a></li>
+                    <li><a href="courses.html">Cursos</a></li>
+                    <li><a href="../index.html">Recursos</a></li>
+                    <li><a href="../index.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Completa tu información</h1>
+    </header>
+    <div class="container">
+        <div class="user-icon">
+            <center><i class="fa-solid fa-user" style="font-size: 50px;"></i></center>        
+        </div>
+        <form>
+            <h2>Cuentanos sobre ti</h2>
+            <label for="text">¿Que te gusta hacer diaramente?</label>
+            <input type="text" id="texto" name="texto" required>
+
+            <label for="text">Como quieres que te llamen:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="tipo-usuario">¿Que nivel de estudios tienes?</label>
+            <select id="tipo-usuario" name="tipo-usuario" required>
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="universitaria">Universitaria</option>
+                <option value="bachiller">Bachiller</option>
+                <option value="master">Master</option>
+            </select>
+
+            <label for="contrasena">¿Quieres recibir notificaciones diaras a tu correo?</label>
+            <select id="tipo-usuario" name="tipo-usuario" required>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+
+            <button type="submit" id="submitBtn">
+                Registrarse
+            </button>
+        </form>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+</body>
+</html>
